@@ -50,16 +50,17 @@ A complete, feature-complete implementation of FFmpeg in Nim language. This proj
 - [x] MP4, MKV, AVI, WebM, MOV support via libavformat
 - [ ] Custom muxer/demuxer implementation for specific formats
 
-### Phase 8: Codec Support 🔄 IN PROGRESS
+### Phase 8: Codec Support ✓ COMPLETED
 - [x] Implement codec discovery and capability check
 - [x] H.264, H.265, VP9, AV1 support via libavcodec
 - [x] AAC, MP3, Opus audio codec support
-- [ ] Hardware acceleration support (NVENC, VAAPI, etc.)
+- [x] Hardware acceleration support (NVENC, VAAPI, etc.)
 
-### Phase 9: Streaming & Network Protocols (Planned)
-- [ ] RTMP protocol
-- [ ] HLS protocol
-- [ ] DASH protocol
+### Phase 9: Streaming & Network Protocols 🔄 IN PROGRESS
+- [x] Implement network protocol discovery
+- [x] RTMP, RTSP, HTTP, HTTPS, TCP, UDP support
+- [x] HLS and DASH streaming support
+- [ ] Custom protocol implementation support
 
 ### Phase 10: Testing & Compatibility (Planned)
 - [ ] Unit tests
