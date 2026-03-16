@@ -33,16 +33,17 @@ A complete, feature-complete implementation of FFmpeg in Nim language. This proj
 - [x] Implement rotate filter support
 - [x] Implement overlay filter support
 
-### Phase 5: Audio Processing System 🔄 IN PROGRESS
+### Phase 5: Audio Processing System ✓ COMPLETED
 - [x] Implement audio resampler (libswresample)
 - [x] Implement sample format conversion
-- [ ] Implement volume control filter
-- [ ] Implement audio mixing support
+- [x] Implement volume control filter
+- [x] Implement audio mixing support
 
-### Phase 6: CLI Interface (Planned)
-- [ ] Implement command-line argument parser
-- [ ] Implement ffmpeg-compatible options
-- [ ] Implement help and version output
+### Phase 6: CLI Interface 🔄 IN PROGRESS
+- [x] Implement command-line argument parser
+- [x] Implement ffmpeg-compatible options (-i, -c:v, -c:a, -vf, -af, -y, etc.)
+- [x] Implement help and version output
+- [ ] Implement interactive mode support
 
 ### Phase 7: Container Format Support (Planned)
 - [ ] MP4 support
