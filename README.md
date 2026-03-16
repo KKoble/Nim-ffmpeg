@@ -39,26 +39,22 @@ A complete, feature-complete implementation of FFmpeg in Nim language. This proj
 - [x] Implement volume control filter
 - [x] Implement audio mixing support
 
-### Phase 6: CLI Interface 🔄 IN PROGRESS
+### Phase 6: CLI Interface ✓ COMPLETED
 - [x] Implement command-line argument parser
 - [x] Implement ffmpeg-compatible options (-i, -c:v, -c:a, -vf, -af, -y, etc.)
 - [x] Implement help and version output
-- [ ] Implement interactive mode support
+- [x] Implement interactive mode support
 
-### Phase 7: Container Format Support (Planned)
-- [ ] MP4 support
-- [ ] MKV support
-- [ ] AVI support
-- [ ] WebM support
-- [ ] MOV support
+### Phase 7: Container Format Support 🔄 IN PROGRESS
+- [x] Implement container format discovery
+- [x] MP4, MKV, AVI, WebM, MOV support via libavformat
+- [ ] Custom muxer/demuxer implementation for specific formats
 
-### Phase 8: Codec Support (Planned)
-- [ ] H.264 codec
-- [ ] H.265 codec
-- [ ] VP9 codec
-- [ ] AV1 codec
-- [ ] AAC audio codec
-- [ ] MP3 audio codec
+### Phase 8: Codec Support 🔄 IN PROGRESS
+- [x] Implement codec discovery and capability check
+- [x] H.264, H.265, VP9, AV1 support via libavcodec
+- [x] AAC, MP3, Opus audio codec support
+- [ ] Hardware acceleration support (NVENC, VAAPI, etc.)
 
 ### Phase 9: Streaming & Network Protocols (Planned)
 - [ ] RTMP protocol
