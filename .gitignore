@@ -1,0 +1,41 @@
+# Nim build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+nimcache/
+nimblecache/
+*.nims.c
+*.c.bak
+
+# Compiled binaries
+nimffmpeg
+bin/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Dependencies
+.nimble/
+nimble.lock
+
+# Test outputs
+test_results/
+*.log
+
+# OS specific
+Thumbs.db
+.directory
+
+# Build directories
+build/
+dist/
