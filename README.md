@@ -19,18 +19,19 @@ A complete, feature-complete implementation of FFmpeg in Nim language. This proj
 - [x] Create FFmpeg C bindings using futhark
 - [x] Set up project directory structure
 
-### Phase 3: Core Media Processing Engine 🔄 IN PROGRESS
+### Phase 3: Core Media Processing Engine ✓ COMPLETED
 - [x] Implement demuxer module
 - [x] Implement decoder module
 - [x] Implement encoder module
 - [x] Implement muxer module
-- [ ] Integrate core modules into main pipeline
+- [x] Integrate core modules into main pipeline
 
-### Phase 4: Video Filter System (Planned)
-- [ ] Implement scale filter
-- [ ] Implement crop filter
-- [ ] Implement rotate filter
-- [ ] Implement overlay filter
+### Phase 4: Video Filter System 🔄 IN PROGRESS
+- [x] Implement filter graph abstraction
+- [x] Implement scale filter support
+- [x] Implement crop filter support
+- [ ] Implement rotate filter support
+- [ ] Implement overlay filter support
 
 ### Phase 5: Audio Processing System (Planned)
 - [ ] Implement resampler
