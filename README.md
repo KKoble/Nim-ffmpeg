@@ -26,17 +26,18 @@ A complete, feature-complete implementation of FFmpeg in Nim language. This proj
 - [x] Implement muxer module
 - [x] Integrate core modules into main pipeline
 
-### Phase 4: Video Filter System 🔄 IN PROGRESS
+### Phase 4: Video Filter System ✓ COMPLETED
 - [x] Implement filter graph abstraction
 - [x] Implement scale filter support
 - [x] Implement crop filter support
-- [ ] Implement rotate filter support
-- [ ] Implement overlay filter support
+- [x] Implement rotate filter support
+- [x] Implement overlay filter support
 
-### Phase 5: Audio Processing System (Planned)
-- [ ] Implement resampler
-- [ ] Implement volume control
-- [ ] Implement audio mixing
+### Phase 5: Audio Processing System 🔄 IN PROGRESS
+- [x] Implement audio resampler (libswresample)
+- [x] Implement sample format conversion
+- [ ] Implement volume control filter
+- [ ] Implement audio mixing support
 
 ### Phase 6: CLI Interface (Planned)
 - [ ] Implement command-line argument parser
